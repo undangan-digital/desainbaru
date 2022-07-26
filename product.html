@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavanyCraft | Home</title>
+    <!--UiKit-->
+    <link rel="stylesheet" href="asset/uikit/css/uikit.min.css">
+    <script src="asset/uikit/js/uikit.min.js"></script>
+    <script src="asset/uikit/js/uikit-icons.min.js"></script>
+    <!--Native CSS-->
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    <link rel="stylesheet" href="asset/native.css">
+</head>
+
+<body>
+
+    <!----------Navbar---------->
+    <div class="uk-preserve-color" style="background-color: #443D25;">
+
+        <div uk-sticky="start: 50; animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light">
+
+            <nav class="uk-navbar-container" style="padding-top: 10px;">
+                <div class="uk-container uk-container-expand">
+                    <div uk-navbar style="border-bottom: 1px solid #EDEDE7;">
+                        <div class="uk-navbar-left">
+
+                            <a class="uk-logo" id="logo">
+                                <img src="asset/img/logo.png" alt="logo" width="200" height="200">
+                            </a>
+
+                        </div>
+
+                        <div class="uk-navbar-right" id="android">
+                            <ul class="uk-navbar-nav">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#about ">About Us</a></li>
+                                <li><a href="#product">Product</a></li>
+                                <li><a href="#tc">Term & Condition</a></li>
+                                <li><a href="#contact">Contact Us</a></li>
+                                <li><a href="#">Gallery</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="uk-navbar-right " id="desktop">
+                            <ul class="uk-navbar-nav ">
+                                <li class="uk-active">
+                                    <a href="" uk-icon="icon: table " uk-toggle="target: #offcanvas-flip" id="sideIcon "></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Sidebar-->
+                        <div id="offcanvas-flip" uk-offcanvas="flip: true; overlay: true">
+                            <div class="uk-offcanvas-bar" style="background-color: #fff;">
+
+                                <ul class="uk-nav uk-nav-default" style="margin-top: 70px;">
+                                    <button class="uk-offcanvas-close" type="button" id="closeSide" uk-close></button>
+                                    <li><a href="#" id="sideLink">Home</a></li>
+                                    <li><a href="#about" id="sideLink">About Us</a></li>
+                                    <li><a href="#product" id="sideLink">Product</a></li>
+                                    <li><a href="#tc" id="sideLink">Term & Condition</a></li>
+                                    <li><a href="#contact" id="sideLink">Contact Us</a></li>
+                                    <li><a href="#" id="sideLink">Gallery</a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <!--Sidebar-->
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="uk-section uk-light ">
+            <div class="uk-container uk-text-center " style="padding-bottom: 110px;margin-top: 50px; ">
+
+                <p style="font-size: 2em; font-weight: 800;">Our Product</p>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!----------Navbar---------->
+
+    <div class="uk-container" style="margin-top: 50px;">
+
+
+    </div>
+
+
+
+    <!--Footer-->
+    <div style="margin-top: 50px;background-color: #443D25;">
+
+        <div class="uk-child-width-expand@s" uk-grid>
+
+            <div style="margin-top: 30px;" class="uk-text-center">
+                <h3 id="footerjudul">PT. MALIDA JAYA PERKASA</h3>
+                <img src="asset/img/malida.png " width="200">
+                <br>
+                <img src="asset/img/logo.png " style="margin-top: 30px;" width="200">
+            </div>
+
+            <div style="margin-top: 30px;">
+                <h3 id="footerjudul" class="uk-text-center">CONTACT US</h3>
+
+                <p id="deskfooter" class="uk-container" style="margin-top: 50px;">
+                    Office : Kp.Tegal Badak No.10 Rt. 009 Rw.005 Ds. Nagasari Kec.Serang baru – Kab. Bekasi – INDONESIA.
+                </p>
+
+                <p id="deskfooter" class="uk-container">
+                    Email : <br>admin@javanycraft.com<br> javanycraft@gmail.com
+                </p>
+
+                <p id="deskfooter" class="uk-container" style="margin-bottom: 50px;">
+                    Admin : +62 812 8555 7636
+                    <br> Admin : +62 878 7876 5659
+                    <br> Admin : +62 821 1493 7779
+                </p>
+            </div>
+
+            <div style="margin-top: 30px;">
+                <h3 id="footerjudul" class="uk-text-center">PRODUCT CATEGORIES</h3>
+
+                <table class="uk-table" class="uk-container" style="margin-bottom: 50px;">
+                    <tr class="bgny">
+                        <th>
+                            <a href="" style="font-size: 0.9em;font-weight: 500;text-decoration: none;color: #fff;">Handicraft</a>
+                        </th>
+                    </tr>
+                    <tr class="bgny">
+                        <th>
+                            <a href=" " style="font-size: 0.9em;font-weight: 500;text-decoration: none;color: #fff;">Ratan Furniture</a>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+    <!--Footer-->
+    <div class="footer" style="background-color: #8F916B;margin-bottom: -20px;">
+        <div class="uk-text-center">
+            <p style="color: #fff;font-size: 0.8em;padding-top: 20px;padding-bottom: 20px;">Copyright © 2020 reserved.</p>
+        </div>
+    </div>
+</body>
+
+</html>

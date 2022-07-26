@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@100&family=Lora:ital,wght@0,400;1,500&family=Montserrat:wght@100;400;500&family=Poppins:wght@300;400&family=Smooch&family=Work+Sans:wght@100&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #EDEDE7;
+}
+
+
+/*Navbar*/
+
+#sideLink {
+    font-size: 1.2em;
+    color: #000;
+    margin-top: 10px;
+}
+
+#closeSide {
+    margin-top: 30px;
+    color: #000;
+    margin-right: 20px;
+}
+
+#deskHead {
+    margin-bottom: 25px;
+}
+
+#deskHead1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+
+/*Navbar*/
+
+
+/*About Us*/
+
+#aboutImg1 {
+    border-left: 5px solid #8F916B;
+    border-radius: 0px 34px 0px 40px;
+    border-right: 5px solid #8F916B;
+}
+
+#aboutImg2 {
+    border-right: 5px solid #8F916B;
+    border-left: 5px solid #8F916B;
+    border-radius: 34px 0px 40px 0px;
+}
+
+#abouts {
+    font-size: 1.7em;
+    font-weight: 800;
+}
+
+#cards1 {
+    margin-left: -100px;
+    border-radius: 0px 29px 0px 0px;
+}
+
+#cards2 {
+    border-radius: 0px 29px 0px 0px;
+}
+
+#textaboutjudul {
+    font-weight: 800;
+}
+
+#textabout {
+    font-size: 1em;
+    font-weight: 200;
+}
+
+
+/*aboutus*/
+
+
+/*product*/
+
+#productpenanda {
+    border: 2px solid #443D25;
+    border-radius: 5px;
+    color: #443D25;
+    width: 250px;
+    margin-top: 20px;
+}
+
+#judul {
+    font-size: 1.8em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+#term {
+    margin-top: 30px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 1.3em;
+}
+
+#inputan {
+    width: 500px;
+    font-weight: 700;
+}
+
+#contacts {
+    font-weight: 700;
+}
+
+#deskcontacts {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+#footerjudul {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 700;
+}
+
+.bgny {
+    border-bottom: 1px solid #BAA88B;
+}
+
+.bgny:hover {
+    background-color: #BAA88B;
+    border-color: #D9CED6;
+}
+
+#deskfooter {
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+@media screen and (min-width: 600px) {
+    #desktop {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #android {
+        display: none;
+    }
+    #cards1 {
+        margin-left: 0;
+    }
+    #aboutImg1 {
+        width: 350px;
+        height: 350px;
+    }
+    #aboutImg2 {
+        width: 350px;
+        height: 350px;
+    }
+    #term {
+        font-size: 1em;
+    }
+    #condition {
+        font-size: 0.9em;
+    }
+    #inputan {
+        width: 300px;
+    }
+    #pesan {
+        width: 250px;
+    }
+    #map {
+        width: 300px;
+        height: 300px;
+    }
+    #contacts {
+        font-size: 1.1em;
+    }
+    #deskcontacts {
+        font-size: 0.9;
+    }
+}
